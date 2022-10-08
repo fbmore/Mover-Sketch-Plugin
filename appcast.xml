@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Mover</title>
+    <link>https://raw.githubusercontent.com/fbmore/Mover-Sketch-Plugin/main/appcast.xml</link>
+    <description>Move selected layers to a New Page or reset their origin.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.0.2</title>
+      <description>
+        <![CDATA[
+        <ul>
+          <li>Initial release</li>
+        </ul>
+        ]]>
+      </description>
+      <enclosure url="https://github.com/fbmore/Mover-Sketch-Plugin/raw/main/Mover.sketchplugin.zip" sparkle:version="0.0.2" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>

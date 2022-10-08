@@ -1,0 +1,39 @@
+{
+	"bundleVersion": 1,
+	"version": "0.0.2",
+	"icon": "icon.png",
+	"identifier": "com.fbmore.mover",
+	"description": "Move selected layers to a New Page or reset their origin",
+	"homepage": "",
+	"author": "Francesco Bertocci",
+	"authorEmail": "fbmore@gmail.com",
+	"compatibleVersion": 80,
+	"commands": [
+		{
+			"name": "Move Selection to New Page",
+			"identifier": "move-selection-new-page",
+			"script": "move-selection-new-page.js"
+    },
+    {
+			"name": "Move Selection to Origin",
+			"identifier": "move-selection-0",
+			"script": "move-selection-0.js"
+    },
+	{
+			"name": "Move to Origin (All contents of all Pages)",
+			"identifier": "move-selection-all",
+			"script": "move-selection-all.js"
+    }
+  	],
+	"menu": {
+		"title": "🚛 Mover",
+		"items": [
+			"move-selection-new-page",
+			"move-selection-0",
+			"move-selection-all"
+		]
+	},
+	"name": "🚛 Mover",
+	"copyright": "Copyright © 2022 Francesco Bertocci, LLC. All rights reserved.",
+	"disableCocoaScriptPreprocessor": true
+}
